@@ -1,0 +1,45 @@
+apiVersion: v1
+entries:
+  my-nginx:
+  - annotations:
+      app: test
+    apiVersion: v2
+    appVersion: 1.23.2
+    created: "2023-02-07T15:38:10.461190499+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 2c69014536269b836de49ced08f6af4c1f0e31d13a2bb9814351881037cc2fd8
+    keywords:
+    - nginx
+    maintainers:
+    - email: devopshot@163.com
+      name: devopshot
+      url: https://abc16810.github.io/kube-charts/
+    name: my-nginx
+    sources:
+    - https://www.nginx.org
+    - https://github.com/abc16810/kube-charts
+    type: application
+    urls:
+    - https://abc16810.github.io/kube-charts/my-nginx-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      app: test
+    apiVersion: v2
+    appVersion: 1.23.2
+    created: "2023-02-07T15:38:10.459809649+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 3a6e506f145cfde65cd8b3d8f0b0c2b42842f1581919fd0bf7b259053a609f92
+    keywords:
+    - nginx
+    maintainers:
+    - email: devopshot@163.com
+      name: devopshot
+      url: https://abc16810.github.io/kube-charts/
+    name: my-nginx
+    sources:
+    - https://www.nginx.org
+    type: application
+    urls:
+    - https://abc16810.github.io/kube-charts/my-nginx-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-02-07T15:38:10.457854438+08:00"
